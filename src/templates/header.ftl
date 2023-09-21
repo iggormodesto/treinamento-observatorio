@@ -35,7 +35,7 @@
                 href="${curWebSite.getUrl()}"
                 target="_blank"
               >
-                <i class="lab la-facebook-f"></i>
+                <@socialMediaIcon url=curWebSite.getUrl() />
               </a>
             </li>
           </#list>
