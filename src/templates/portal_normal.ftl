@@ -27,6 +27,12 @@
 			<#include "${full_templates_path}/header.ftl" />
 
 			<main id="content" class="flex-grow-1">
+				<#if show_breadcrumbs>
+					<div class="container">
+						<@liferay.breadcrumbs />
+					</div>
+				</#if>
+
 				<h2 
 					class="hide-accessible sr-only" 
 					role="heading" 

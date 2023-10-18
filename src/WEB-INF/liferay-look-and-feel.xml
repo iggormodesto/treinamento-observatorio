@@ -7,6 +7,11 @@
 	</compatibility>
 	<theme id="observatorio-cldf-l7_4" name="Observatório Cidadão - CLDF">
 		<template-extension>ftl</template-extension>
+
+		<settings>
+			<setting configurable="true" key="Habilitar Breadcrumbs" type="checkbox" value="true" />
+		</settings>
+
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
 		</portlet-decorator>

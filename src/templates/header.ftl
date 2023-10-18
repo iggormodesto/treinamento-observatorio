@@ -59,7 +59,7 @@
   </div>
 
   <#if !is_signed_in>
-    <a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
+    <a data-redirect="${is_login_redirect_required?string}" href="${htmlUtil.escape(themeDisplay.getURLSignIn())}" id="sign-in" rel="nofollow">${languageUtil.get(locale, "sign-in")}</a>
   </#if>
 
   <#if has_navigation && is_setup_complete>

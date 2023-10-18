@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 7.4.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_7_4_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="pagina-inicial" name="Página Inicial">
+			<template-path>/layouttpl/custom/pagina-inicial-layouttpl/pagina_inicial.ftl</template-path>
+			<thumbnail-path>/layouttpl/custom/pagina-inicial-layouttpl/pagina_inicial.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>

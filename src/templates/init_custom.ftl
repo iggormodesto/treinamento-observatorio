@@ -7,6 +7,9 @@
 <#assign preferences = freeMarkerPortletPreferences.getPreferences({"portletSetupPortletDecoratorId": "borderless"}) />
 <#assign websites = WebsiteLocalService.getWebsites() />
 
+<#-- CONFIGURAÇÕES -->
+<#assign show_breadcrumbs = getterUtil.getBoolean(themeDisplay.getThemeSetting("Habilitar Breadcrumbs")) />
+
 <#--  RETORNA O ÍCONE DA REDE SOCIAL A PARTIR DA URL  -->
 <#macro socialMediaIcon url>
   <#if url?contains("facebook")>
